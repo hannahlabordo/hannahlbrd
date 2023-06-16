@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+}
+.navbar {
+    margin: 0;
+    background-color:#ff009d;
+    color: #fff;
+    overflow:hidden;
+    font-family: 'Trebuchet MS';
+    
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+body {
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.navbar li a:hover {
+  background-color: #ff92c9;
+  
+}
+  
+  
+.login {
+    float: right;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.logo0 {
+  width: 38px; /* Adjust the logo width as needed */
+  height:38px; /* Adjust the logo height as needed */
+
+}
+
+.glam {
+  display: flex;
+  justify-content:left;
+    float:left;
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px; /* Adjust the height as needed */
+}
+
+.logo-container img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.login button {
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS';
+    margin-left: 50px;
+    background-color: #ff92c9;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+  
+.login button:hover {
+    background-color: #ff68a7;
+    text-decoration: none;
+}
+.login-container {
+  height: 1050px; 
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.loginpage{
+  
+    font-family:Trebuchet MS;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 650px;
+    width: 20%;
+    background-color: #ff81bc;
+    border-radius: 60px;
+    padding: 60px;
+    align-items: center;
+    box-shadow: 0 2px 10px #ee1380;
+}
+h2{
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.username{
+    padding: 10px;
+    width: 94%;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    align-items: center;
+    
+}
+
+.or{
+  margin-top: 16px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.btn1{
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color:#ff006a;
+    height: 45px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .btn1:hover{
+    background-color:#ff68a7;
+    color: #ffffff;
+  
+  }
+  
+.loginFB{
+    background-color:  #3b5998;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    padding-top: 16px;
+    border-radius: 20px;
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #000;
+    align-content: center;
+    align-self: center;
+
+}
+.loginFB:hover{
+  background-color:#ff68a7;
+  color: #000000;
+}
+  .logo1 {
+    width: 19px; /* Adjust the logo width as needed */
+    height:19px; /* Adjust the logo height as needed */
+    margin-right: 20px;  
+  }
+
+.loginGoogle{
+    background-color: #ffffff;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    padding-top: 14px;
+    border-radius: 20px;
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    align-content: center;
+    align-self: center;
+}
+
+.loginGoogle:hover{
+  background-color:#ff68a7;
+  color: #ffffff;
+}
+
+.logo2 {
+  width: 19px; /* Adjust the logo width as needed */
+  height:19px; /* Adjust the logo height as needed */
+  margin-right: 20px;  
+}
+.black-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .white-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+footer{
+    background-color:#ff009d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
